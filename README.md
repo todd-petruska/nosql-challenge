@@ -6,6 +6,7 @@ A repository labeled nosql-challenge contains the following files:
 *    NoSQL_setup_starter.ipynb
 *   Resources folder
 *  establishments.json
+  
 This project consists of several parts.
 The first part requires the use of terminal or windows command line to import the establishments json file via mongoimport, which creates the database uk_food as well as the collection establishments.
 Use terminal or windows command line to locate the directory with the folder labeled Resources.  Paste the following into terminal: mongoimport --type json -d uk_food  -c establishments --drop --jsonArray establishments.json
