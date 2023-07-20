@@ -12,6 +12,7 @@ The first part requires the use of terminal or windows command line to import th
 Use terminal or windows command line to locate the directory with the folder labeled Resources.  Paste the following into terminal: mongoimport --type json -d uk_food  -c establishments --drop --jsonArray establishments.json
 
 The second part uses file NoSQL_setup_starter.ipynb to import dependencies, create Mongo Client, import the uk_food database, and verify the collection named establishments is listed. The code includes the addition of a new restaurant, the removal of establishments in the Dover Local Authority, converts latitude and longitude from strings to decimal numbers, and converts the rating value from strings to integers.
+
 The third part uses file NoSQL_setup_starter.ipynb to answer specific questions pertaining to the rating values, which will assist journalists and food critics on deciding where to focus future articles. Please note, the Rating Value refers to the overall rating decided by the Food Authority and ranges from one to five. The higher the value, the better the rating; however, the scores for Hygiene, Structural, and Confidence In Management work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
 Resources used for this project include, Instructor assistance during Office Hours, course material, course provided starter-code, Study Group, MongoDB reference documents, Stack Overflow, Creative Commons, Towards Data Science, Tutorials Point, Geeks for Geeks, GitHub, and MongoDB Compass.
